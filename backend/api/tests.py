@@ -1,7 +1,8 @@
-from django.test import Client, TestCase
 from http import HTTPStatus
+from django.test import Client, TestCase
 
 from . import models
+
 
 class TaskiAPITestCase(TestCase):
     def setUp(self):
